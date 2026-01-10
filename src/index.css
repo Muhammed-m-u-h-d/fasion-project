@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body{
+  background-color: black;
+}
+

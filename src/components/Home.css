@@ -1,0 +1,28 @@
+@keyframes menu {
+    0%{
+        height: 0rem;
+        margin-left: -20rem;
+    }
+    100%{
+        height:14.5rem;
+    }
+}
+
+
+.menu-slide{
+    animation: menu 1s forwards;
+}
+
+.menu-slide-out{
+  animation: slideout 0.8s forwards;
+}
+@keyframes slideout {
+    0%{
+        margin-left: 0rem;
+    }
+    100%{
+        margin-left: -20rem;
+        
+        
+    }
+}

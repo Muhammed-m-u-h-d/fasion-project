@@ -1,0 +1,58 @@
+.myform{
+    animation: animation 1.5s ease-in-out;
+}
+@keyframes animation {
+    0%{
+        position: relative;
+        left: -25rem;
+        margin-left: -30rem;
+    }
+    50%{
+      position: relative;
+      left:0rem;
+      margin-left: 0rem;
+      margin: 1rem;
+      
+    }
+    
+}
+
+.myhead{
+     animation: head 1.8s ease-in-out;
+}
+
+@keyframes head {
+    0%{
+        position: relative;
+        left: -20rem;
+        margin-left: -30rem;
+        transform: rotate(8deg);
+        opacity: 1px;
+    
+    }
+    50%{
+      position: relative;
+      left:0rem;
+      margin-left: 0rem;
+      opacity: 1px;
+    }
+}
+
+.image{
+    animation:image 1.5s ease-in-out;
+}
+
+@keyframes image {
+    0%{
+        position: relative;
+        left: -20rem;
+        
+    }
+    50%{
+      position: relative;
+      left:0rem;
+    
+    
+    }
+    
+}
