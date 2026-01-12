@@ -2,12 +2,10 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
-import { ImGift } from "react-icons/im";
 import "./Home.css";
 import Footer from "./Footer";
-import Shirts from "./Shirts";
 import { useNavigate } from "react-router-dom";
-import BestOffer from "./BestOffer";
+
 
 function Home() {
   const [products, setProducts] = useState([]);
@@ -26,36 +24,10 @@ function Home() {
 
   const navigate = useNavigate();
 
-  function shirtPage() {
-    setTimeout(() => {
-      navigate("/Shirts");
-    }, 500);
-  }
-  function pantsPage() {
-    setTimeout(() => {
-      navigate("/Pants");
-    }, 500);
-  }
-  function accessoriesPage() {
-    setTimeout(() => {
-      navigate("/Accessories");
-    }, 500);
-  }
-  function PremiumPage() {
-    setTimeout(() => {
-      navigate("/Premiumsale");
-    }, 500);
-  }
-  function bestOfferPage() {
-    setTimeout(() => {
-      navigate("/Bestoffer");
-    }, 500);
-  }
-  function weddingPage() {
-    setTimeout(() => {
-      navigate("/Weddingcollection");
-    }, 500);
-  }
+  
+
+const goTo = (path) => navigate(path);
+
   return (
     <>
       <Navbar setInputValue={setInputValue} inputValue={inputValue} />
@@ -65,20 +37,20 @@ function Home() {
         <div className="grid grid-cols-2 gap-1.5 p-2 mt-[-1rem] relative bg-neutral-950 backdrop-blur-xs p-6  [border-radius:0rem_0rem_0rem_30rem]   ">
           
           <button
-            onClick={shirtPage}
+            onClick={()=>goTo('/shirts')}
             className=" [border-radius:20px_0px_0px_0px] h-[130px] sansation-light  flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black  active:scale-95 transition-transform duration-200"
           >
             <p className="">Shirts</p>
           </button>
 
           <button
-            onClick={pantsPage}
+            onClick={()=>goTo('/pants')}
             className=" [border-radius:0px_20px_0px_0px] h-[130px]  sansation-light flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200"
           >
-            <p className="text-center">phants</p>
+            <p className="text-center">pants</p>
           </button>
           <button
-            onClick={accessoriesPage}
+            onClick={()=>goTo('/accessories')}
             className="[border-radius:0px_0px_0px_10px] h-[140px] sansation-light   flex justify-center items-center bg-gray-900 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200 "
           >
             <p className="text-center">Accessories</p>
@@ -94,16 +66,16 @@ function Home() {
           <h2 className="text-3xl font-bold text-red-800 bg-white absolute top-[-19px] left-[25px] w-[190px]  sansation-light ">
             Today's Offer
           </h2>
-          <div className="flex overflow-auto [scrollbar-width:none] items-center gap-5 pt-5">
+          <div className="flex overflow-x-auto   items-center  gap-5 pt-5">
             {todayOffer.map((val) => (
               <div
                 key={val.id}
-                className="sansation-light  shrink-0  flex flex-col items-center justify-center border w-50 border-gray-300 rounded-lg p-3  "
+                className="sansation-light  shrink-0   flex flex-col items-center justify-center border   border-gray-800/30 rounded-lg p-3  "
               >
                 <img
                   src={val.image}
                   alt=""
-                  className=" h-[15rem]  object-contain  bg-red-500/20 w-FULL [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
+                  className=" h-[15rem]  object-contain  bg-red-500/20 w-[12rem]  [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
                 />
                 <div className="flex flex-col items-center ">
                   <p className=" text-center pb-2">{val.name}</p>
@@ -128,7 +100,7 @@ function Home() {
         </div>
         <div className="">
           <div
-            onClick={PremiumPage}
+            onClick={()=>goTo('/premium-sale')}
             className="p-2 pb-0 pt-0 relative active:scale-95 transition-transform duration-600 "
           >
             <img
@@ -147,7 +119,7 @@ function Home() {
           </div>
 
           <div
-            onClick={bestOfferPage}
+            onClick={()=>goTo('/best-offers')}
             className="p-2 pb-0 relative active:scale-95 transition-transform duration-600 "
           >
             <img
@@ -162,7 +134,7 @@ function Home() {
           </div>
 
           <div
-            onClick={weddingPage}
+            onClick={goTo}
             className="p-2 relative active:scale-95 transition-transform duration-600 "
           >
             <img

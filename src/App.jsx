@@ -18,12 +18,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Loginpage/>}/>
         <Route path="/home" element={<Home/>}/>
-        <Route path="/Shirts" element={<Shirts/>}/>
-        <Route path="/Pants" element={<Phants/>}/>
-        <Route path="/Accessories" element={<Accessories/>}/>
-        <Route path="/Premiumsale" element={<Premium/>}/>
-        <Route path="/Bestoffer" element={<BestOffer/>}/>
-        <Route path="/Weddingcollection" element={<Wedding/>}/> 
+        <Route path="/shirts" element={<Shirts/>}/>
+        <Route path="/pants" element={<Phants/>}/>
+        <Route path="/accessories" element={<Accessories/>}/>
+        <Route path="/premium-sale" element={<Premium/>}/>
+        <Route path="/best-offer" element={<BestOffer/>}/>
+        <Route path="/wedding-collection" element={<Wedding/>}/> 
       </Routes>
       </BrowserRouter>
     </div>
