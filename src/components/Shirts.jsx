@@ -28,7 +28,12 @@ function Shirts() {
   return (
     <>
       <PageNav />
+     
+
+
+
       <div className="mt-[6.5rem] p-2 bg-white">
+       
         <div className="grid grid-cols-2  gap-3  overflow-auto ">
           {Shirts.map((val) => (
             <div

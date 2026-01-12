@@ -3,12 +3,12 @@ import { RiMenu2Line } from "react-icons/ri";
 import { GrFavorite } from "react-icons/gr";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { RiSearch2Line } from "react-icons/ri";
-import { div } from "motion/react-client";
+
 
 import { Link } from "react-router-dom";
 function Navbar({ setInputValue, inputValue }) {
   const [menu,setMenu]=useState(false)
-  console.log(menu)
+  
   return (
     <div className="bg-black/50  backdrop-blur-xs fixed top-0 w-full shadow-md shadow-black z-100 ">
       <div className="flex items-center justify-between p-2 pt-3 text-white pb-5">
