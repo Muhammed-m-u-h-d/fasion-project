@@ -103,7 +103,7 @@ function Home() {
                 <img
                   src={val.image}
                   alt=""
-                  className=" h-[15rem]  object-cover  bg-red-500/20 w-full [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
+                  className=" h-[15rem]  object-contain  bg-red-500/20 w-full [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
                 />
                 <div className="flex flex-col items-center ">
                   <p className=" text-center pb-2">{val.name}</p>
@@ -168,7 +168,7 @@ function Home() {
             <img
               src="/Products-images/wedding-bg-img.png"
               alt=""
-              className=" bg-black rounded-xl h-[16.5rem] w-full object-contain "
+              className=" bg-black rounded-xl h-[16.5rem] w-full object-cover "
             />
             <p className=" cinzel-decorative-regular text-3xl text-neutral-400 pl-4 pt-25 absolute top-0 text-center tracking-tight">
               Wedding
