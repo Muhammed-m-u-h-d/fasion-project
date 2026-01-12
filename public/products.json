@@ -43,7 +43,7 @@
     "discount": 50,
     "badge": "premium",
     "todayOffer": true,
-    "image": "public/Products-images/Bootcut_Denim_Jeans-4-removebg-preview.png",
+    "image": "/Products-images/Bootcut_Denim_Jeans-4-removebg-preview.png",
     "sizes": ["S", "M", "L"],
     "colors": ["Blue", "Dark Blue"]
   },
@@ -115,7 +115,7 @@
     "discount": 50,
     "badge": "premium",
     "todayOffer": true,
-    "image": "public/Products-images/casual-vintage-phants-10.png",
+    "image": "/Products-images/casual-vintage-phants-10.png",
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["Blue", "Black"]
   },
@@ -463,7 +463,7 @@
     "discount": 20,
     "badge": "best offer",
     "todayOffer": true,
-    "image": "public/Products-images/vintage-vest-39.png",
+    "image": "/Products-images/vintage-vest-39.png",
     "sizes": ["S", "M", "L"],
     "colors": ["Brown", "Grey"]
   },
