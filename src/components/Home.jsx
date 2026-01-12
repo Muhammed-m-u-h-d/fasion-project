@@ -168,7 +168,7 @@ function Home() {
             <img
               src="/Products-images/wedding-bg-img.png"
               alt=""
-              className=" bg-black rounded-xl h-[16.5rem] w-full object-cover "
+              className=" bg-black rounded-xl h-[16.5rem] w-full object-contain "
             />
             <p className=" cinzel-decorative-regular text-3xl text-neutral-400 pl-4 pt-25 absolute top-0 text-center tracking-tight">
               Wedding
