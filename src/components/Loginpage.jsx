@@ -56,7 +56,7 @@ function Loginpage() {
         </form>
         <div>
           <img
-            src="public/Products-images/login-back-img.png"
+            src="/Products-images/login-back-img.png"
             alt=""
             className="image mt-[-20rem] ml-[2rem] h-180 object-cover opacity-20"
           />
