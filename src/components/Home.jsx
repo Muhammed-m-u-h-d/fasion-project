@@ -98,12 +98,12 @@ function Home() {
             {todayOffer.map((val) => (
               <div
                 key={val.id}
-                className="sansation-light  shrink-0  flex flex-col items-center justify-center border border-gray-300 rounded-lg p-3  "
+                className="sansation-light  shrink-0  flex flex-col items-center justify-center border w-50 border-gray-300 rounded-lg p-3  "
               >
                 <img
                   src={val.image}
                   alt=""
-                  className=" h-[15rem]  object-contain  bg-red-500/20 w-full [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
+                  className=" h-[15rem]  object-contain  bg-red-500/20 w-FULL [border-radius:10px_10px_0px_0px] p-2  mask-b-from-80% mask-b-to-100%  "
                 />
                 <div className="flex flex-col items-center ">
                   <p className=" text-center pb-2">{val.name}</p>
