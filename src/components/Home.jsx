@@ -38,24 +38,24 @@ const goTo = (path) => navigate(path);
           
           <button
             onClick={()=>goTo('/shirts')}
-            className=" [border-radius:20px_0px_0px_0px] h-[130px] sansation-light  flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black  active:scale-95 transition-transform duration-200"
+            className=" [border-radius:20px_0px_0px_0px] h-[110px] sansation-light  flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black  active:scale-95 transition-transform duration-200"
           >
             <p className="">Shirts</p>
           </button>
 
           <button
             onClick={()=>goTo('/pants')}
-            className=" [border-radius:0px_20px_0px_0px] h-[130px]  sansation-light flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200"
+            className=" [border-radius:0px_20px_0px_0px] h-[110px]  sansation-light flex justify-center items-center bg-gray-800 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200"
           >
             <p className="text-center">pants</p>
           </button>
           <button
             onClick={()=>goTo('/accessories')}
-            className="[border-radius:0px_0px_0px_10px] h-[140px] sansation-light   flex justify-center items-center bg-gray-900 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200 "
+            className="[border-radius:0px_0px_0px_10px] h-[110px] sansation-light   flex justify-center items-center bg-gray-900 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200 "
           >
             <p className="text-center">Accessories</p>
           </button>
-          <button className=" h-[140px] sansation-light [border-radius:0px_0px_10px_0px]  flex justify-center items-center bg-gray-900 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200 ">
+          <button className=" h-[110px] sansation-light [border-radius:0px_0px_10px_0px]  flex justify-center items-center bg-gray-900 text-white font-semibold text-xl shadow-md shadow-black active:scale-95 transition-transform duration-200 ">
             <p className="text-center">FootWear</p>
           </button>
           
