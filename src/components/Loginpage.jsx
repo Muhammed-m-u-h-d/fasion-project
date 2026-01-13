@@ -11,8 +11,8 @@ function Loginpage() {
   const isValid = value !== "" && password !== "";
 
   return (
-    <div className="bg-[url(/Products-images/background-image.png)] h-[100vh] bg-cover bg-center overflow-hidden">
-      <h1 className="sansation-light myhead text-6xl text-white font-bold p- pt-28 text-center opacity-60">
+    <div className="bg-[url(/Products-images/background-image.png)] h-[100vh] bg-center overflow-hidden">
+      <h1 className="sansation-light myhead text-7xl text-white font-bold p- pt-28 text-center opacity-60">
         Rétro<span className="text-gray-500/80">X</span>
       </h1>
      
@@ -54,13 +54,7 @@ function Loginpage() {
             Register
           </button>
         </form>
-        <div>
-          <img
-            src="/Products-images/login-back-img.png"
-            alt=""
-            className="image mt-[-20rem] ml-[5rem] h-180 object-cover opacity-20"
-          />
-        </div>
+       
       </div>
     </div>
   );
