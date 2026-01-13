@@ -32,7 +32,7 @@ const goTo = (path) => navigate(path);
     <>
       <Navbar setInputValue={setInputValue} inputValue={inputValue} />
 
-      <div className="bg-white ">
+      <div className="bg-white mt-[10.3rem] ">
         <Carousel />
         <div className="grid grid-cols-2 gap-1.5 p-2 mt-[-1rem] relative bg-neutral-950 backdrop-blur-xs p-6  [border-radius:0rem_0rem_0rem_30rem]   ">
           
