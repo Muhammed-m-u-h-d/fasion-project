@@ -19,7 +19,7 @@ function Carousel() {
   }, []);
 
   return (
-    <div className="mt-[10.5rem] bg-black ">
+    <div className="mt-[10.3rem] bg-black  ">
       <img
         src={img[index]}
         alt=""
