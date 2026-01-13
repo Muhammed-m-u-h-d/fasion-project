@@ -11,7 +11,7 @@ function Navbar({ setInputValue, inputValue }) {
   const [menu,setMenu]=useState(false)
   
   return (
-   <div className="text-white bg-red-500   fixed top-0 z-50 w-full shadow-xl">
+   <div className="text-white bg-black/40 backdrop-blur-xs   fixed top-0 z-50 w-full shadow-xl">
 
     <div className="flex justify-between p-4  sansation-light">
     <RiMenu2Line size={30}/>

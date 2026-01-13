@@ -28,13 +28,14 @@
         margin-left: -30rem;
         transform: rotate(8deg);
         opacity: 1px;
-    
+        
     }
     50%{
       position: relative;
       left:0rem;
       margin-left: 0rem;
       opacity: 1px;
+      
     }
 }
 

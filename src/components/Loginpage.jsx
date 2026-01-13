@@ -12,26 +12,26 @@ function Loginpage() {
 
   return (
     <div className="bg-[url(/Products-images/background-image.png)] h-[100vh] bg-cover bg-center overflow-hidden">
-      <h1 className="sansation-light myhead text-8xl text-white font-bold p-10 pt-28 text-center opacity-60">
+      <h1 className="sansation-light myhead text-6xl text-white font-bold p- pt-28 text-center opacity-60">
         Rétro<span className="text-gray-500/80">X</span>
       </h1>
      
       <div>
         <form
           action=""
-          className="myform text-white flex flex-col  p-5 pt-14 pb-14  m-[1rem] rounded-lg relative z-50 bg-neutral-500/15 "
+          className="myform text-white flex flex-col  p-8 pt-14 pb-14  m-[2rem] rounded-lg relative z-50 bg-neutral-500/15 "
         >
           <input
             type="email"
             placeholder="EMAIL"
-            className="border-b text-lg m-3 ml-0 pb-1 outline-none"
+            className="border-b  m-3 ml-0 pb-1 outline-none"
             required
             onChange={(e) => setValue(e.target.value)}
           />
           <input
             type="password"
             placeholder="PASSWORD"
-            className="border-b m-3 ml-0 pb-1 outline-none text-lg"
+            className="border-b m-3 ml-0 pb-1 outline-none "
             required
             onChange={(e) => setPassword(e.target.value)}
           />
@@ -58,7 +58,7 @@ function Loginpage() {
           <img
             src="/Products-images/login-back-img.png"
             alt=""
-            className="image mt-[-20rem] ml-[2rem] h-180 object-cover opacity-20"
+            className="image mt-[-20rem] ml-[5rem] h-180 object-cover opacity-20"
           />
         </div>
       </div>

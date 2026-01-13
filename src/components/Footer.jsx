@@ -9,7 +9,9 @@ const [inputValue,setInputValue]=useState("")
 
         
         <div>
-          <h1 className='text-4xl font-bold  '>Loom<span className='text-gray-500/80'>X</span></h1>
+            <h1 className=" text-5xl text-white  pb-2  ">
+        Rétro<span className="text-gray-500/80">X</span>
+      </h1>
           <p className="mt-3 text-sm text-gray-400 leading-relaxed">
             Premium menswear crafted for modern elegance and timeless style.
           </p>
