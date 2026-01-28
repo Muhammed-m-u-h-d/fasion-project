@@ -20,7 +20,7 @@ function FeaturedLooks() {
   return (
     <div className='grid grid-cols-2 gap-[1rem] pt-[2rem] pb-[2rem] border-b-1 border-gray-300 p-4 sansation-light'>
       <div>
-        <img src="public/homepage/featured-banner.png" alt="" className='w-full h-full object-cover' />
+        <img src="/homepage/featured-banner.png" alt="" className='w-full h-full object-cover' />
       </div>
       <div className=''>
         <h2 className='cormorant-garamond font-bold text-3xl' >Featured Look</h2>
