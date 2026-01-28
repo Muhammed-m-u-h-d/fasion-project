@@ -1,0 +1,937 @@
+[
+  {
+    "id": 1,
+    "name": "Grey Oversized T-Shirt",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Grey",
+    "featured": false,
+    "essential": true,
+    "image": "/products/tshirt/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Black Minimal T-Shirt",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Black",
+    "featured": true,
+
+    "image": "/products/tshirt/2.png"
+  },
+  {
+    "id": 3,
+    "name": "White Classic T-Shirt",
+    "category": "tshirt",
+    "price": 749,
+    "color": "White",
+    "featured": false,
+    "essential": true,
+    "image": "/products/tshirt/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Beige Relaxed T-Shirt",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Beige",
+    "featured": false,
+    "essential": true,
+    "image": "/products/tshirt/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Olive Streetwear T-Shirt",
+    "category": "tshirt",
+    "price": 849,
+    "color": "Olive",
+    "featured": false,
+    "essential": true,
+    "image": "/products/tshirt/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Stone Washed T-Shirt",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Stone",
+    "featured": false,
+    "image": "/products/tshirt/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Charcoal Oversized T-Shirt",
+    "category": "tshirt",
+    "price": 999,
+    "color": "Charcoal",
+    "featured": true,
+    "image": "/products/tshirt/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Sage Green Minimal Tee",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Sage",
+    "featured": false,
+    "image": "/products/tshirt/8.png"
+  },
+  {
+    "id": 9,
+    "name": "Navy Blue Urban Tee",
+    "category": "tshirt",
+    "price": 849,
+    "color": "Navy",
+    "featured": false,
+    "image": "/products/tshirt/9.png"
+  },
+  {
+    "id": 10,
+    "name": "Deep Brown T-Shirt",
+    "category": "tshirt",
+    "price": 749,
+    "color": "Brown",
+    "featured": false,
+    "image": "/products/tshirt/10.png"
+  },
+  {
+    "id": 11,
+    "name": "Khaki Oversized T-Shirt",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Khaki",
+    "featured": false,
+    "image": "/products/tshirt/11.png"
+  },
+  {
+    "id": 12,
+    "name": "Cream Soft-Touch Tee",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Cream",
+    "featured": false,
+    "image": "/products/tshirt/12.png"
+  },
+  {
+    "id": 13,
+    "name": "Ash Grey Heavyweight Tee",
+    "category": "tshirt",
+    "price": 999,
+    "color": "Ash",
+    "featured": false,
+    "image": "/products/tshirt/13.png"
+  },
+  {
+    "id": 14,
+    "name": "Rust Minimal Tee",
+    "category": "tshirt",
+    "price": 849,
+    "color": "Rust",
+    "featured": false,
+    "image": "/products/tshirt/14.png"
+  },
+  {
+    "id": 15,
+    "name": "Jet Black Street Tee",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Black",
+    "featured": true,
+    "image": "/products/tshirt/15.png"
+  },
+  {
+    "id": 16,
+    "name": "Washed Black Vintage Tee",
+    "category": "tshirt",
+    "price": 999,
+    "color": "Washed Black",
+    "featured": false,
+    "image": "/products/tshirt/16.png"
+  },
+  {
+    "id": 17,
+    "name": "Ice Blue Minimal Tee",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Ice Blue",
+    "featured": false,
+    "image": "/products/tshirt/17.png"
+  },
+  {
+    "id": 18,
+    "name": "Forest Green Oversized Tee",
+    "category": "tshirt",
+    "price": 849,
+    "color": "Forest",
+    "featured": false,
+    "image": "/products/tshirt/18.png"
+  },
+  {
+    "id": 19,
+    "name": "Warm Beige Tee",
+    "category": "tshirt",
+    "price": 749,
+    "color": "Warm Beige",
+    "featured": false,
+    "image": "/products/tshirt/19.png"
+  },
+  {
+    "id": 20,
+    "name": "Shadow Grey Tee",
+    "category": "tshirt",
+    "price": 799,
+    "color": "Shadow",
+    "featured": false,
+    "image": "/products/tshirt/20.png"
+  },
+
+  
+  {
+    "id": 21,
+    "name": "Black Overshirt",
+    "category": "shirts",
+    "price": 1499,
+    "color": "Black",
+    "featured": true,
+    "essential": true,
+    "image": "/products/shirts/1.png"
+  },
+  {
+    "id": 22,
+    "name": "White Classic Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "White",
+    "featured": false,
+    "essential": true,
+    "image": "/products/shirts/2.png"
+  },
+  {
+    "id": 23,
+    "name": "Soft Beige Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Beige",
+    "featured": false,
+    "image": "/products/shirts/3.png"
+  },
+  {
+    "id": 24,
+    "name": "Khaki Minimal Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Khaki",
+    "featured": false,
+    "image": "/products/shirts/4.png"
+  },
+  {
+    "id": 25,
+    "name": "Olive Relaxed Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "Olive",
+    "featured": false,
+    "image": "/products/shirts/5.png"
+  },
+  {
+    "id": 26,
+    "name": "Grey Street Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Grey",
+    "featured": false,
+    "image": "/products/shirts/6.png"
+  },
+  {
+    "id": 27,
+    "name": "Charcoal Premium Shirt",
+    "category": "shirts",
+    "price": 1499,
+    "color": "Charcoal",
+    "featured": true,
+    "image": "/products/shirts/7.png"
+  },
+  {
+    "id": 28,
+    "name": "Navy Smart Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "Navy",
+    "featured": false,
+    "image": "/products/shirts/8.png"
+  },
+  {
+    "id": 29,
+    "name": "Rust Urban Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Rust",
+    "featured": false,
+    "image": "/products/shirts/9.png"
+  },
+  {
+    "id": 30,
+    "name": "Soft Cream Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "Cream",
+    "featured": false,
+    "image": "/products/shirts/10.png"
+  },
+
+  
+  {
+    "id": 31,
+    "name": "Grey Minimal Hoodie",
+    "category": "hoodies",
+    "price": 1699,
+    "color": "Grey",
+    "featured": true,
+    "essential": true,
+    "image": "/products/hoodies/1.png"
+    },
+    {
+      "id": 32,
+      "name": "Black Heavy Hoodie",
+      "category": "hoodies",
+      "price": 1799,
+      "color": "Black",
+      "featured": false,
+      "essential": true,
+      "image": "/products/hoodies/2.png"
+    },
+    {
+      "id": 33,
+      "name": "Beige Cotton Hoodie",
+      "category": "hoodies",
+      "price": 1699,
+      "color": "Beige",
+      "featured": false,
+      "image": "/products/hoodies/3.png"
+    },
+    {
+      "id": 34,
+      "name": "Olive Oversized Hoodie",
+      "category": "hoodies",
+      "price": 1799,
+      "color": "Olive",
+      "featured": false,
+      "image": "/products/hoodies/4.png"
+    },
+    {
+      "id": 35,
+      "name": "Navy Street Hoodie",
+      "category": "hoodies",
+      "price": 1699,
+      "color": "Navy",
+      "featured": false,
+      "image": "/products/hoodies/5.png"
+    },
+    {
+      "id": 36,
+      "name": "Charcoal Urban Hoodie",
+      "category": "hoodies",
+      "price": 1799,
+      "color": "Charcoal",
+      "featured": false,
+      "image": "/products/hoodies/6.png"
+    },
+    {
+      "id": 37,
+      "name": "Cream Soft Hoodie",
+      "category": "hoodies",
+      "price": 1699,
+      "color": "Cream",
+      "featured": false,
+      "image": "/products/hoodies/7.png"
+    },
+    {
+      "id": 38,
+      "name": "Stone Washed Hoodie",
+      "category": "hoodies",
+      "price": 1799,
+      "color": "Stone",
+      "featured": false,
+      "image": "/products/hoodies/8.png"
+    },
+    {
+      "id": 39,
+      "name": "Warm Brown Hoodie",
+      "category": "hoodies",
+      "price": 1699,
+      "color": "Brown",
+      "featured": false,
+      "image": "/products/hoodies/9.png"
+    },
+    {
+      "id": 40,
+      "name": "Shadow Grey Hoodie",
+      "category": "hoodies",
+      "price": 1799,
+      "color": "Shadow",
+      "featured": false,
+      "image": "/products/hoodies/10.png"
+    },
+
+    
+    {
+      "id": 41,
+      "name": "Black Baggy Jeans",
+      "category": "pants",
+      "price": 1499,
+      "color": "Black",
+      "featured": true,
+      "essential": true,
+      "image": "/products/pants/1.png"
+    },
+    {
+      "id": 42,
+      "name": "Washed Blue Bootcut Jeans",
+      "category": "pants",
+      "price": 1599,
+      "color": "Blue",
+      "featured": false,
+      "image": "/products/pants/2.png"
+    },
+    {
+      "id": 43,
+      "name": "Grey Relaxed Fit Pants",
+      "category": "pants",
+      "price": 1499,
+      "color": "Grey",
+      "featured": false,
+      "image": "/products/pants/3.png"
+    },
+    {
+      "id": 44,
+      "name": "Olive Cargo Pants",
+      "category": "pants",
+      "price": 1599,
+      "color": "Olive",
+      "featured": false,
+      "image": "/products/pants/4.png"
+    },
+    {
+      "id": 45,
+      "name": "Khaki Streetwear Pants",
+      "category": "pants",
+      "price": 1499,
+      "color": "Khaki",
+      "featured": false,
+      "image": "/products/pants/5.png"
+    },
+    {
+      "id": 46,
+      "name": "Stone Grey Jeans",
+      "category": "pants",
+      "price": 1499,
+      "color": "Stone",
+      "featured": false,
+      "image": "/products/pants/6.png"
+    },
+    {
+      "id": 47,
+      "name": "Brown Wide-Leg Pants",
+      "category": "pants",
+      "price": 1599,
+      "color": "Brown",
+      "featured": false,
+      "image": "/products/pants/7.png"
+    },
+    {
+      "id": 48,
+      "name": "Ice Blue Relaxed Jeans",
+      "category": "pants",
+      "price": 1499,
+      "color": "Ice Blue",
+      "featured": false,
+      "image": "/products/pants/8.png"
+    },
+    {
+      "id": 49,
+      "name": "Warm Beige Pants",
+      "category": "pants",
+      "price": 1499,
+      "color": "Beige",
+      "featured": false,
+      "image": "/products/pants/9.png"
+    },
+    {
+      "id": 50,
+      "name": "Dark Grey Street Pants",
+      "category": "pants",
+      "price": 1599,
+      "color": "Dark Grey",
+      "featured": false,
+      "image": "/products/pants/10.png"
+    },
+
+    
+    {
+      "id": 51,
+      "name": "Black Leather Jacket",
+      "category": "jackets",
+      "price": 2499,
+      "color": "Black",
+      "featured": true,
+      "essential": true,
+      "image": "/products/jackets/1.png"
+    },
+    {
+      "id": 52,
+      "name": "Stone Grey Jacket",
+      "category": "jackets",
+      "price": 2399,
+      "color": "Stone",
+      "featured": false,
+      "image": "/products/jackets/2.png"
+    },
+    {
+      "id": 53,
+      "name": "Olive Bomber Jacket",
+      "category": "jackets",
+      "price": 2599,
+      "color": "Olive",
+      "featured": false,
+      "image": "/products/jackets/3.png"
+    },
+    {
+      "id": 54,
+      "name": "Khaki Field Jacket",
+      "category": "jackets",
+      "price": 2499,
+      "color": "Khaki",
+      "featured": false,
+      "image": "/products/jackets/4.png"
+    },
+    {
+      "id": 55,
+      "name": "Cream Minimal Jacket",
+      "category": "jackets",
+      "price": 2399,
+      "color": "Cream",
+      "featured": false,
+      "image": "/products/jackets/5.png"
+    },
+    {
+      "id": 56,
+      "name": "Navy Street Jacket",
+      "category": "jackets",
+      "price": 2499,
+      "color": "Navy",
+      "featured": false,
+      "image": "/products/jackets/6.png"
+    },
+    {
+      "id": 57,
+      "name": "Rust Overshirt Jacket",
+      "category": "jackets",
+      "price": 2299,
+      "color": "Rust",
+      "featured": false,
+      "image": "/products/jackets/7.png"
+    },
+    {
+      "id": 58,
+      "name": "Warm Brown Jacket",
+      "category": "jackets",
+      "price": 2399,
+      "color": "Brown",
+      "featured": false,
+      "image": "/products/jackets/8.png"
+    },
+    {
+      "id": 59,
+      "name": "Shadow Grey Jacket",
+      "category": "jackets",
+      "price": 2499,
+      "color": "Shadow",
+      "featured": false,
+      "image": "/products/jackets/9.png"
+    },
+    {
+      "id": 60,
+      "name": "Washed Black Jacket",
+      "category": "jackets",
+      "price": 2599,
+      "color": "Washed Black",
+      "featured": false,
+      "image": "/products/jackets/10.png"
+    },
+
+    
+    {
+      "id": 61,
+      "name": "Black Street Vest",
+      "category": "vests",
+      "price": 1299,
+      "color": "Black",
+      "featured": false,
+      "image": "/products/vests/1.png"
+    },
+    {
+      "id": 62,
+      "name": "Olive Utility Vest",
+      "category": "vests",
+      "price": 1399,
+      "color": "Olive",
+      "featured": false,
+      "image": "/products/vests/2.png"
+    },
+    {
+      "id": 63,
+      "name": "Grey Minimal Vest",
+      "category": "vests",
+      "price": 1299,
+      "color": "Grey",
+      "featured": false,
+      "image": "/products/vests/3.png"
+    },
+    {
+      "id": 64,
+      "name": "Khaki Layer Vest",
+      "category": "vests",
+      "price": 1399,
+      "color": "Khaki",
+      "featured": false,
+      "image": "/products/vests/4.png"
+    },
+    {
+    "id": 65,
+    "name": "Shadow Black Boxy Tee",
+    "category": "tshirt",
+    "price": 949,
+    "color": "Black",
+    "featured": true,
+    "image": "/products/tshirt/23.png"
+  },
+    {
+      "id": 66,
+      "name": "Navy Quilted Vest",
+      "category": "vests",
+      "price": 1499,
+      "color": "Navy",
+      "featured": false,
+      "image": "/products/vests/6.png"
+    },
+    {
+      "id": 67,
+      "name": "Charcoal Street Vest",
+      "category": "vests",
+      "price": 1399,
+      "color": "Charcoal",
+      "featured": false,
+      "image": "/products/vests/7.png"
+    },
+    {
+      "id": 68,
+      "name": "Brown Utility Vest",
+      "category": "vests",
+      "price": 1399,
+      "color": "Brown",
+      "featured": false,
+      "image": "/products/vests/8.png"
+    },
+    {
+      "id": 69,
+      "name": "Forest Green Vest",
+      "category": "vests",
+      "price": 1299,
+      "color": "Forest",
+      "featured": false,
+      "image": "/products/vests/9.png"
+    },
+    {
+      "id": 70,
+      "name": "Warm Beige Vest",
+      "category": "vests",
+      "price": 1399,
+      "color": "Beige",
+      "featured": false,
+      "image": "/products/vests/10.png"
+    },
+
+  {
+    "id": 71,
+    "name": "Black Relaxed Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "Black",
+    "featured": false,
+    "image": "/products/shirts/11.png"
+  },
+  {
+    "id": 72,
+    "name": "Sage Green Casual Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Sage",
+    "featured": false,
+    "image": "/products/shirts/12.png"
+  },
+  {
+    "id": 73,
+    "name": "Light Grey Soft Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Light Grey",
+    "featured": false,
+    "image": "/products/shirts/13.png"
+  },
+  {
+    "id": 74,
+    "name": "Deep Navy Shirt",
+    "category": "shirts",
+    "price": 1399,
+    "color": "Navy",
+    "featured": false,
+    "image": "/products/shirts/14.png"
+  },
+  {
+    "id": 75,
+    "name": "Warm Brown Shirt",
+    "category": "shirts",
+    "price": 1299,
+    "color": "Brown",
+    "featured": false,
+    "image": "/products/shirts/15.png"
+  },
+
+  
+  {
+    "id": 76,
+    "name": "Black Minimal Hoodie",
+    "category": "hoodies",
+    "price": 1799,
+    "color": "Black",
+    "featured": false,
+    "image": "/products/hoodies/11.png"
+  },
+  {
+    "id": 77,
+    "name": "Sage Oversized Hoodie",
+    "category": "hoodies",
+    "price": 1699,
+    "color": "Sage",
+    "featured": false,
+    "image": "/products/hoodies/12.png"
+  },
+  {
+    "id": 78,
+    "name": "Sky Blue Hoodie",
+    "category": "hoodies",
+    "price": 1699,
+    "color": "Sky Blue",
+    "featured": false,
+    "image": "/products/hoodies/13.png"
+  },
+  {
+    "id": 79,
+    "name": "Forest Green Hoodie",
+    "category": "hoodies",
+    "price": 1799,
+    "color": "Forest",
+    "featured": true,
+    "image": "/products/hoodies/14.png"
+  },
+  {
+    "id": 80,
+    "name": "Sand Beige Hoodie",
+    "category": "hoodies",
+    "price": 1699,
+    "color": "Sand",
+    "featured": false,
+    "image": "/products/hoodies/15.png"
+  },
+  {
+    "id": 81,
+    "name": "Cream High-Neck Hoodie",
+    "category": "hoodies",
+    "price": 1799,
+    "color": "Cream",
+    "featured": false,
+    "image": "/products/hoodies/16.png"
+  },
+  {
+    "id": 82,
+    "name": "Stone Grey Heavy Hoodie",
+    "category": "hoodies",
+    "price": 1899,
+    "color": "Stone",
+    "featured": false,
+    "image": "/products/hoodies/17.png"
+  },
+  {
+    "id": 83,
+    "name": "Dusty Brown Hoodie",
+    "category": "hoodies",
+    "price": 1799,
+    "color": "Brown",
+    "featured": false,
+    "image": "/products/hoodies/18.png"
+  },
+  {
+    "id": 84,
+    "name": "Charcoal Boxy Hoodie",
+    "category": "hoodies",
+    "price": 1899,
+    "color": "Charcoal",
+    "featured": false,
+    "image": "/products/hoodies/19.png"
+  },
+  {
+    "id": 85,
+    "name": "White Clean Hoodie",
+    "category": "hoodies",
+    "price": 1799,
+    "color": "White",
+    "featured": false,
+    "image": "/products/hoodies/20.png"
+  },
+
+  
+  {
+    "id": 86,
+    "name": "Black Straight Fit Pants",
+    "category": "pants",
+    "price": 1499,
+    "color": "Black",
+    "featured": false,
+    "image": "/products/pants/11.png"
+  },
+  {
+    "id": 87,
+    "name": "Cream Relaxed Pants",
+    "category": "pants",
+    "price": 1499,
+    "color": "Cream",
+    "featured": false,
+    "image": "/products/pants/12.png"
+  },
+  {
+    "id": 88,
+    "name": "Washed Grey Denim",
+    "category": "pants",
+    "price": 1599,
+    "color": "Washed Grey",
+    "featured": false,
+    "image": "/products/pants/13.png"
+  },
+  {
+    "id": 89,
+    "name": "Dark Olive Cargo Pants",
+    "category": "pants",
+    "price": 1599,
+    "color": "Dark Olive",
+    "featured": false,
+      "essential": true,
+    "image": "/products/pants/14.png"
+  },
+  {
+    "id": 90,
+    "name": "Light Blue Wide-Leg Jeans",
+    "category": "pants",
+    "price": 1599,
+    "color": "Light Blue",
+    "featured": false,
+    "image": "/products/pants/15.png"
+  },
+
+  
+  {
+    "id": 91,
+    "name": "Black Bomber Jacket",
+    "category": "jackets",
+    "price": 2599,
+    "color": "Black",
+    "featured": true,
+    "image": "/products/jackets/11.png"
+  },
+  {
+    "id": 92,
+    "name": "Cream Zip Jacket",
+    "category": "jackets",
+    "price": 2399,
+    "color": "Cream",
+    "featured": false,
+    "image": "/products/jackets/12.png"
+  },
+   {
+    "id": 93,
+    "name": "Light Grey Minimal Tee",
+    "category": "tshirt",
+    "price": 849,
+    "color": "Light Grey",
+    "featured": false,
+    "image": "/products/tshirt/24.png"
+  },
+  {
+    "id": 94,
+    "name": "Brown Padded Jacket",
+    "category": "jackets",
+    "price": 2599,
+    "color": "Brown",
+    "featured": false,
+    "image": "/products/jackets/14.png"
+  },
+  {
+    "id": 95,
+    "name": "Deep Green Urban Jacket",
+    "category": "jackets",
+    "price": 2499,
+    "color": "Green",
+    "featured": false,
+    "image": "/products/jackets/15.png"
+  },
+
+  
+  {
+    "id": 96,
+    "name": "Soft Cream Oversized T-Shirt",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Cream",
+    "featured": false,
+    
+    "image": "/products/tshirt/21.png"
+  },
+  {
+    "id": 97,
+    "name": "Oversized Black T-Shirt",
+    "category": "tshirt",
+    "price": 999,
+    "color": "Black",
+    "featured": false,
+    "image": "/products/tshirt/22.png"
+  },
+ 
+  {
+      "id": 98,
+      "name": "beige Puffer Vest",
+      "category": "vests",
+      "price": 1499,
+      "color": "Beige",
+      "featured": false,
+      "image": "/products/vests/5.png"
+    },
+ 
+  {
+    "id": 99,
+    "name": "Boxy fit Jacket",
+    "category": "jackets",
+    "price": 2499,
+    "color": "Navy",
+    "featured": false,
+    "image": "/products/jackets/13.png"
+  },
+  {
+    "id": 100,
+    "name": "Warm Beige Oversized Tee",
+    "category": "tshirt",
+    "price": 899,
+    "color": "Beige",
+    "featured": false,
+    "image": "/products/tshirt/25.png"
+  }
+]
+
